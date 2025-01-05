@@ -1,0 +1,188 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background */
+    color: #343a40; /* Dark text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    background: linear-gradient(90deg, #ff69b4, #87ceeb); /* Gradient from pink to blue */
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: #ffe4e1; /* Light pink */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff69b4; /* Pink */
+    border-color: #ff69b4;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #ff85c1;
+    border-color: #ff85c1;
+}
+
+.btn-danger {
+    background-color: #ff4d6d; /* Darker pink */
+    border-color: #ff4d6d;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #ff7187;
+    border-color: #ff7187;
+}
+
+.btn-success {
+    background-color: #87ceeb; /* Light blue */
+    border-color: #87ceeb;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #a1dcf4;
+    border-color: #a1dcf4;
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Yellow */
+    border-color: #ffc107;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #ffd454;
+    border-color: #ffd454;
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    color: #495057;
+}
+
+form input, form textarea {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: #ff69b4; /* Pink header */
+    color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+table tr:hover {
+    background-color: #f1f5f9; /* Light hover effect */
+}
+
+/* Flash messages */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+/* Footer (optional) */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; 
+    color: #6c757d;           
+    padding: 10px 0;          
+    border-top: 1px solid #e9ecef;
+    z-index: 10;              
+    font-size: 14px;          
+}
+
+
+/* Login/Register Page */
+.card {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border: 2px solid #ff69b4;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+.card hr {
+    border: none;
+    border-top: 2px solid #ff69b4;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card p a {
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.card p a:hover {
+    color: #ff69b4;
+}
