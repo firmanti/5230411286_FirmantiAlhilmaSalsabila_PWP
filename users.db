@@ -1,0 +1,19 @@
+import sqlite3
+
+# Buka database
+conn = sqlite3.connect('users.db')
+cursor = conn.cursor()
+
+# Tampilkan semua tabel dalam database
+cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+tables = cursor.fetchall()
+print(tables)
+
+# Tampilkan isi tabel 'User'
+cursor.execute("SELECT * FROM user;")
+users = cursor.fetchall()
+for user in users:
+    print(user)
+
+# Tutup koneksi
+conn.close()
