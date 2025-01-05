@@ -1,15 +1,13 @@
-/* General styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa; /* Light background */
-    color: #343a40; /* Dark text */
+    background-color: #f8f9fa; 
+    color: #343a40; 
     margin: 0;
     padding: 0;
 }
 
-/* Navbar styles */
 .navbar {
-    background: linear-gradient(90deg, #ff69b4, #87ceeb); /* Gradient from pink to blue */
+    background: linear-gradient(90deg, #ff69b4, #87ceeb); 
     color: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -27,12 +25,11 @@ body {
 }
 
 .navbar a:hover {
-    color: #ffe4e1; /* Light pink */
+    color: #ffe4e1; 
 }
 
-/* Buttons */
 .btn-primary {
-    background-color: #ff69b4; /* Pink */
+    background-color: #ff69b4;  
     border-color: #ff69b4;
     color: white;
 }
@@ -43,7 +40,7 @@ body {
 }
 
 .btn-danger {
-    background-color: #ff4d6d; /* Darker pink */
+    background-color: #ff4d6d; 
     border-color: #ff4d6d;
     color: white;
 }
@@ -54,7 +51,7 @@ body {
 }
 
 .btn-success {
-    background-color: #87ceeb; /* Light blue */
+    background-color: #87ceeb; 
     border-color: #87ceeb;
     color: white;
 }
@@ -65,7 +62,7 @@ body {
 }
 
 .btn-warning {
-    background-color: #ffc107; /* Yellow */
+    background-color: #ffc107; 
     border-color: #ffc107;
     color: white;
 }
@@ -97,7 +94,6 @@ form input, form textarea {
     font-size: 1rem;
 }
 
-/* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -108,7 +104,7 @@ table {
 }
 
 table thead {
-    background-color: #ff69b4; /* Pink header */
+    background-color: #ff69b4; 
     color: white;
 }
 
@@ -119,10 +115,10 @@ table th, table td {
 }
 
 table tr:hover {
-    background-color: #f1f5f9; /* Light hover effect */
+    background-color: #f1f5f9; 
 }
 
-/* Flash messages */
+
 .alert {
     padding: 15px;
     margin-bottom: 20px;
